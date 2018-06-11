@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h3>My Home</h3>
+        <ul id='devices'>
+
+        </ul>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.dev.js'></script>
+        <script>
+            var socket = io();
+            socket.emit('monitor', 'hi')
+            socket.on('monitor-device', (data) => {
+                console.info(data)
+                var p = document.createElement('p')
+                p.innerHTML = data['friendly_name']
+                document.querySelector('#devices').appendChild(p)
+            })
+        </script>
+    </body>
+</html>
