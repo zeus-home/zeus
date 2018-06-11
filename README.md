@@ -1,4 +1,4 @@
-# ZEUS
+# Zeus
 
 An autonomous Home Automation System developed to provide control to a house over the internet and provide increased energy efficiency using advanced modern techniques.
 
