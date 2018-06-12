@@ -14,7 +14,10 @@ The project consists of 5 components
 
 
 ### Tesseract
-The software running on the central processing hub responsible for establishing communication woth all the devices and maintaing the state of the home. 
+The software running on the central processing hub responsible for establishing communication woth all the devices and maintaing the state of the home.
+
+#### Oracle
+The deep reinforcement learing model, which will be used to minimise the energy consumptions and increase overall energy efficiency based on user habits. 
 
 ### Hercules
 Hercules is responsible for actually executing the changes in the state of the devices according to the data collected by mercury and decision taken by the tesseract.

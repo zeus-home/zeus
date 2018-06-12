@@ -1,5 +1,3 @@
 # Tesseract
 
-The Home Automation Software which is the brains of the project.
-Meant to run on the central hub in a Linux Environment. 
-
+The software running on the central processing hub responsible for establishing communication woth all the devices and maintaing the state of the home.
