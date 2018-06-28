@@ -6,7 +6,6 @@ weight = 30
 draft = false
 bref = "The need for smart homes in this age and problems with current implementations"
 toc = true
-author = "Swanav"
 +++
 
 The currently available market solution and research are prohibitively expensive and do not integrate with the device completely. Some solutions provide simple on/off switching of the devices, while some of them also use unsuitable technologies like Power Line Communications, Bluetooth and Ethernet etc.

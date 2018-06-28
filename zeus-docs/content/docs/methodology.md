@@ -6,19 +6,41 @@ weight = 60
 draft = false
 bref = "The need for smart homes in this age and problems with current implementations"
 toc = true
-author = "Swanav"
 +++
+
+<style>
+    p:not(.hero-lead) {
+        text-align: justify;
+    }
+
+    .wp-incharge {
+        text-align: right;
+        font-style: italic;
+    }
+
+    .subsection-head {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 44px;
+        font-weight: 500;        
+    }
+
+    .subsection-head:hover {
+        color: #f03c69;
+    }
+
+</style>
 
 To ensure that all our objectives are met, we have divided our work packages in 4 work packages, each centred around a single objective. Completion of each of these work packages will complete an objective of our project and prepare a deliverable which will be a part of the complete system.
  
 Work Packages and division among team members
-## WP1 	Sensor aggregator module development
-_(Work Package Incharge: Shubham Gupta)_
+<h3 class="section-head" id="wp1"><a href="#wp1">WP1 Sensor aggregator module development</a></h3>
+<div class='wp-incharge'>Work Package Incharge: Shubham Gupta</div>
 
 Sensors are collected in a single unit to form an interconnection among the sensors for eﬃcient analysis and evaluation of aggregated data by the controlling unit.
-### WP1.1 	Selection of sensors
+<h4 class="subsection-head">WP1.1 Selection of sensors</h4>
 
-As a first step, we need to figure out all the to identify environment variables relevant to home automation system. This is a vital step in our design phase as this will determine the capabilities and limitations of the system. The identification of these variables depends on the appliances to be automated in the existing home. 
+As a first step, we need to figure out all the to identify environment variables relevant to home automation system. This is a vital step in our design phase as this will determine the capabilities and limitations of the system. The identification of these variables depends on the appliances to be automated in the existing home.
 
 These are the conceived energy based equipment which will be optimized.
 
@@ -27,9 +49,13 @@ These are the conceived energy based equipment which will be optimized.
 - Air conditioners
 
 Now based upon the above identified appliances, the environment variables under observation will be
+
 - **Infrared Radiations** - to detect the presence of human being in or around the target area. It is very important to detect this parameter because most of the appliances are automated based upon this variable. In order to accomplish this task, Passive Infrared (PIR)Sensors would be best suited.
+
 - **Temperature** - using a certain algorithm, the data provided by the temperature sensor will be compared with some reference value and then the associated appliances will be automated to maintain a certain temperature.
+
 - **Illumination** - It is also required to automate some of the appliances such as lights by observing the intensity of light in the home surrounding. The information provided by this sensor will be used by the system to, adjusted the illumination accordingly to desired level deliver an in the target area.
+
 - **Moisture** - 
 In order to detect the moisture present in the atmosphere, a humidity sensor (or hygrometer) will be used. It senses, measures and reports the relative humidity and therefore measures both moisture and temperature. The moisture report by the sensor will be compared to some predefined value and in case it is above that value, corresponding appliances will be automated. 
     
@@ -37,7 +63,7 @@ Based upon the above identified variables we will find out the optimum sensors f
 
 The output of sensor will be observed using some data processing methods to draw inferences regarding each sensor.
 
-### WP1.2 	Aggregation of sensors
+<h4 class="subsection-head">WP1.2 Aggregation of sensors</h4>
 
 Based upon the appliances present inside a particular room, specific sensors will be aggregated to form a module of sensors and it will be installed inside every room. This will help in collecting optimum data and reduce complexity in the installation as well.
 
@@ -58,35 +84,43 @@ Now, a driver will be packaged in the firmware which will be installed in the HA
 
 Based upon the type of the sensors required for each room, and the position of installation of that unit, the hardware will be designed. The designed module of each appliance will be fabricated in-house or outsourced as per requirement to yield a sensor aggregator module.
 
-## WP2 Plug and Play actuator development
-_(Work Package Incharge: Satyam Kumar)_
+<h3 class="section-head" id="wp2"><a href="#wp2">WP2 Plug and Play actuator development</a></h3>
+<div class='wp-incharge'>Work Package Incharge: Satyam Kumar</div>
 
 To introduce software based control, microcontroller based actuators modules are to be attached either in the power supply lines of the devices (fan and lighting system control) or must be directly attached to the device itself (Air Conditioner control).
 
-### WP2.1 	Study of control methodology
+<h4 class="subsection-head">WP2.1 Study of control methodology</h4>
 The development of the actuator modules designed for each device to be automated in the smart home will be using plug and play methods so as to convert existing devices into smart ones. The actuators will operate and automate the appliances based on the commands received from the HAS.
 
-### WP2.2 	Actuator circuit design
+<h4 class="subsection-head">WP2.2 Actuator circuit design</h4>
+
 - Air Conditioner - The plug and play module of the air conditioner will be equipped with IR blasters. It will then receive the signal and relay this to the receiving end to automate the air conditioner accordingly.
+
 - LED Lights - The use of pulse width modulated signals that drives a control switch (say MOSFET) to switch the LEDs accordingly thereby altering the intensity.
+
 - Fans - Speed regulation of fans will be done using the combination of Diac and Triac to reduce the energy losses that were occurring by the use of conventional voltage controller.
 
 Now the designed circuit of actuator modules is designed in such a way that there would be no need to interfere with the existing circuitry of the appliances with a number of iteration done, we will achieve the most desired place of installation of the actuator modules.
 
-## WP3 	Energy optimization algorithm formulation
-_(Work Package Incharge: Swanav)_
+<h3 class="section-head" id="wp3"><a href="#wp3">WP3 Energy optimization algorithm formulation</a></h3>
+<div class='wp-incharge'>Work Package Incharge: Swanav</div>
 
-### WP3.1 	Study of decision inﬂuencing parameters
+<h4 class="subsection-head">WP3.1 Study of decision inﬂuencing parameters</h4>
+
 Household energy consumption data will be monitored using various energy meters around the house and used to prepare a dataset. This dataset will be used to study the parameters which are vital to energy usage and user comfort. These parameters can include factors like time of the day, outdoor temperature, day of the week etc. These factors will act as the input layer to the artificial neural network to be designed.
 
-### WP3.2 	Design of a deep learning model
+<h4 class="subsection-head">WP3.2 Design of a deep learning model</h4>
+
 Based on the factors determined from the previous study, a deep reinforcement learning based neural network will be designed, and various output forms will be generated. These outputs will be such that they can send commands to the Home Automation Software which can execute them. The neural network will take its previous outputs as an input to reinforce learning, implying that the network will be self-evolving and provide greater efficiency over time.
 
-## WP4 	Home Automation Unit design
-(Work Package Incharge: Swanav)
-### WP4.1 	Design of the software for the Home Automation System
+<h3 class="section-head" id="wp4"><a href="#wp4">WP4 Home Automation Unit design</a></h3>
+<div class='wp-incharge'>Work Package Incharge: Swanav</div>
+
+<h4 class="subsection-head">WP4.1 Design of the software for the Home Automation System</h4>
+
 All the sensor aggregator modules and the retroﬁt modules need a central hub for their communication and management. The HAS will receive the inputs from the sensors and give an optimized output to the modules after processing it using the aforementioned algorithms. The HAS will run atop it providing functionalities like adding new devices, removing devices, deﬁning rooms, adding sensor aggregator units and plug and play smart device conversion modules.
-### WP4.2 	Development of a user interface to enable user interaction with the system
+<h4 class="subsection-head">WP4.2 Development of a user interface to enable user interaction with the system</h4>
+
 The developed home automation system will be largely autonomous, providing complete and optimal automation to major units around the household. But this system needs to interact with the inhabitants from time to time. The user may issue direct commands which contradict and override the optimized output of the HAS, or the system may need to relay alerts to the user. The developed interface needs to provide the users with an overview of the operations being carried out by the home automation system, display the energy usage of the users, provide the data collected by the sensors as well as give him an ability to control the appliances in any way that he chooses.
 
 The users presently manage their house’s electrical system using switchboards which are very conveniently positioned in every room of the household. This experience is integral to the users and they should not have to re-learn everything from scratch when adopting a smarter lifestyle. To be able to manage the HAS inside the house, a touchscreen based software switchboard will be very convenient. The system will also be available to the users over the cloud enabling them to manage their homes from around the world.
