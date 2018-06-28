@@ -3,7 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://swanav.github.io/zeus/docs/introduction/</loc>
+    <lastmod>2018-06-28T15:01:21+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://swanav.github.io/zeus/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://swanav.github.io/zeus/docs/</loc>
+    <lastmod>2018-06-28T15:01:21+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14,6 +25,7 @@
   
   <url>
     <loc>http://swanav.github.io/zeus/</loc>
+    <lastmod>2018-06-28T15:01:21+05:30</lastmod>
     <priority>0</priority>
   </url>
   
