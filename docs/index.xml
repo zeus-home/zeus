@@ -20,5 +20,81 @@
       <description>Current energy crisis An energy efficient household, which has an idea about the future can optimize its consumption in the present, to preserve energy. This can be achieved by using machine learning methods, which are now commonly used in various industries everywhere, to make systems smart and study patterns invisible to the human eye. A smart home, integrated with these methods can save energy by itself, without the resident ever needing to constantly worry about the next day.</description>
     </item>
     
+    <item>
+      <title>Literature Survey</title>
+      <link>http://swanav.github.io/zeus/docs/literature-survey/</link>
+      <pubDate>Thu, 28 Jun 2018 15:41:25 +0530</pubDate>
+      
+      <guid>http://swanav.github.io/zeus/docs/literature-survey/</guid>
+      <description>National Status Review - Archana N. Shewale[1] describes the methodology of renewable energy based home automation in which two things are consider one is energy consumption and another is energy generation. In this, ZigBee is used for monitoring energy consumption of home equipment and power line communication (PLC) is used to monitoring energy generation. - S. Anusha[2] describes the design and development of a remote household appliance control system using ATmega328 microcontroller and android mobile through GSM technology.</description>
+    </item>
+    
+    <item>
+      <title>Research Gaps</title>
+      <link>http://swanav.github.io/zeus/docs/research-gaps/</link>
+      <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
+      
+      <guid>http://swanav.github.io/zeus/docs/research-gaps/</guid>
+      <description>The currently available market solution and research are prohibitively expensive and do not integrate with the device completely. Some solutions provide simple on/off switching of the devices, while some of them also use unsuitable technologies like Power Line Communications, Bluetooth and Ethernet etc. From the present analysis of the existing solutions for automating a room environment, the technologies used suffer from a number of drawbacks. So, these protocols are limited in functionalities when used by an end user in real life.</description>
+    </item>
+    
+    <item>
+      <title>Novelty</title>
+      <link>http://swanav.github.io/zeus/docs/novelty/</link>
+      <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
+      
+      <guid>http://swanav.github.io/zeus/docs/novelty/</guid>
+      <description>A centralized device architecture will be used to design this Home Automation System (HAS), establishing a clear hierarchy between the devices and enabling simplified decision making. A higher level of device controllability provided by the plug and play modules will provide greater energy efficiency while maintaining user comfort. A Deep Reinforcement Learning model will allow the HAS to optimize its output over time, learning user behaviour and providing ever increasing efficiency to the system.</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>http://swanav.github.io/zeus/docs/objectives/</link>
+      <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
+      
+      <guid>http://swanav.github.io/zeus/docs/objectives/</guid>
+      <description> To detect changes in the environment of rooms using different sensors. To develop plug and play device control techniques to manage home appliances. To optimize energy consumption to increase the efficiency of the household. To design a central processing hub for management of modules and execution of control algorithms.  </description>
+    </item>
+    
+    <item>
+      <title>Methodology</title>
+      <link>http://swanav.github.io/zeus/docs/methodology/</link>
+      <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
+      
+      <guid>http://swanav.github.io/zeus/docs/methodology/</guid>
+      <description>To ensure that all our objectives are met, we have divided our work packages in 4 work packages, each centred around a single objective. Completion of each of these work packages will complete an objective of our project and prepare a deliverable which will be a part of the complete system.
+Work Packages and division among team members
+WP1 Sensor aggregator module development (Work Package Incharge: Shubham Gupta)
+Sensors are collected in a single unit to form an interconnection among the sensors for eﬃcient analysis and evaluation of aggregated data by the controlling unit.</description>
+    </item>
+    
+    <item>
+      <title>Standards</title>
+      <link>http://swanav.github.io/zeus/docs/standards/</link>
+      <pubDate>Thu, 28 Jun 2018 15:41:25 +0530</pubDate>
+      
+      <guid>http://swanav.github.io/zeus/docs/standards/</guid>
+      <description>IEEE 802.11 Standard for Wi-Fi P2413 Standard for an Architectural Framework for the Internet of Things (IoT) IEEE 2755-2017 IEEE guide for terms and concepts in Intelligent Process Automation IEEE 61850-9-3-2016 International Standard for communication networks and systems for power utility automation IEEE 802.15.4 Wireless sensor/control networks. IEEE 1016 Software design description. ISO/IEC PRF 20922 MQTT, Publish-Subscribe based messaging protocol for device-device communication. RFC6455 WebSockets, full duplex messaging protocol over the TCP stack.</description>
+    </item>
+    
+    <item>
+      <title>Realistic Constraints</title>
+      <link>http://swanav.github.io/zeus/docs/realistic-constraints/</link>
+      <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
+      
+      <guid>http://swanav.github.io/zeus/docs/realistic-constraints/</guid>
+      <description>Although the project will be designed with a modular approach with scope of future expansibility, it will be demonstrated on a much smaller scale, due to a lack of infrastructure and budget. Plug and Play modules with fine level of control will be developed only for Lights, Fans and Air Conditioners due to lack of budget and time. Rest of the devices will be controlled in only an On/Off state.</description>
+    </item>
+    
+    <item>
+      <title>References</title>
+      <link>http://swanav.github.io/zeus/docs/references/</link>
+      <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
+      
+      <guid>http://swanav.github.io/zeus/docs/references/</guid>
+      <description>Beginner&amp;rsquo;s guide to the esp8266
+Kuch bhi</description>
+    </item>
+    
   </channel>
 </rss>
