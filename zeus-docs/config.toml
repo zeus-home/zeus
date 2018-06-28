@@ -1,0 +1,4 @@
+baseURL = "http://swanav.github.io/zeus"
+languageCode = "en-us"
+title = "Zeus"
+publishDir = "../public"
