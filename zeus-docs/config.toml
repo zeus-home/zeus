@@ -1,4 +1,4 @@
-baseURL = "http://swanav.github.io/zeus"
+baseURL = "http://swanav.github.io/zeus/"
 languageCode = "en-us"
 publishDir = "../public"
 title = "Zeus"
