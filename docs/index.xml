@@ -17,7 +17,7 @@
       <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
       
       <guid>http://swanav.github.io/zeus/docs/introduction/</guid>
-      <description>Current energy crisis An energy efficient household, which has an idea about the future can optimize its consumption in the present, to preserve energy. This can be achieved by using machine learning methods, which are now commonly used in various industries everywhere, to make systems smart and study patterns invisible to the human eye. A smart home, integrated with these methods can save energy by itself, without the resident ever needing to constantly worry about the next day.</description>
+      <description>p:not(.content) { text-align: justify; }  Current energy crisis An energy efficient household, which has an idea about the future can optimize its consumption in the present, to preserve energy. This can be achieved by using machine learning methods, which are now commonly used in various industries everywhere, to make systems smart and study patterns invisible to the human eye. A smart home, integrated with these methods can save energy by itself, without the resident ever needing to constantly worry about the next day.</description>
     </item>
     
     <item>
@@ -26,7 +26,8 @@
       <pubDate>Thu, 28 Jun 2018 15:41:25 +0530</pubDate>
       
       <guid>http://swanav.github.io/zeus/docs/literature-survey/</guid>
-      <description>National Status Review - Archana N. Shewale[1] describes the methodology of renewable energy based home automation in which two things are consider one is energy consumption and another is energy generation. In this, ZigBee is used for monitoring energy consumption of home equipment and power line communication (PLC) is used to monitoring energy generation. - S. Anusha[2] describes the design and development of a remote household appliance control system using ATmega328 microcontroller and android mobile through GSM technology.</description>
+      <description>li { text-align: justify; }  National Status Review  Archana N. Shewale, &amp;ldquo;Renewable Energy Based Home Automation System Using ZigBee&amp;rdquo;, International Journal of Computer Technology and Electronics Engineering (IJCTEE), 2015
+Archana N. Shewale describes the methodology of renewable energy based home automation in which two things are consider one is energy consumption and another is energy generation. In this, ZigBee is used for monitoring energy consumption of home equipment and power line communication (PLC) is used to monitoring energy generation.</description>
     </item>
     
     <item>
@@ -53,7 +54,7 @@
       <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
       
       <guid>http://swanav.github.io/zeus/docs/objectives/</guid>
-      <description> To detect changes in the environment of rooms using different sensors. To develop plug and play device control techniques to manage home appliances. To optimize energy consumption to increase the efficiency of the household. To design a central processing hub for management of modules and execution of control algorithms.  </description>
+      <description>To detect changes in the environment of rooms using different sensors. To develop plug and play device control techniques to manage home appliances. To optimize energy consumption to increase the efficiency of the household. To design a central processing hub for management of modules and execution of control algorithms. </description>
     </item>
     
     <item>
@@ -62,10 +63,7 @@
       <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
       
       <guid>http://swanav.github.io/zeus/docs/methodology/</guid>
-      <description>To ensure that all our objectives are met, we have divided our work packages in 4 work packages, each centred around a single objective. Completion of each of these work packages will complete an objective of our project and prepare a deliverable which will be a part of the complete system.
-Work Packages and division among team members
-WP1 Sensor aggregator module development (Work Package Incharge: Shubham Gupta)
-Sensors are collected in a single unit to form an interconnection among the sensors for eﬃcient analysis and evaluation of aggregated data by the controlling unit.</description>
+      <description>p:not(.hero-lead) { text-align: justify; } .wp-incharge { text-align: right; font-style: italic; } .subsection-head { font-size: 22px; line-height: 30px; margin-top: 44px; font-weight: 500; } .subsection-head:hover { color: #f03c69; }  To ensure that all our objectives are met, we have divided our work packages in 4 work packages, each centred around a single objective. Completion of each of these work packages will complete an objective of our project and prepare a deliverable which will be a part of the complete system.</description>
     </item>
     
     <item>
@@ -83,7 +81,8 @@ Sensors are collected in a single unit to form an interconnection among the sens
       <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
       
       <guid>http://swanav.github.io/zeus/docs/realistic-constraints/</guid>
-      <description>Although the project will be designed with a modular approach with scope of future expansibility, it will be demonstrated on a much smaller scale, due to a lack of infrastructure and budget. Plug and Play modules with fine level of control will be developed only for Lights, Fans and Air Conditioners due to lack of budget and time. Rest of the devices will be controlled in only an On/Off state.</description>
+      <description>Although the project will be designed with a modular approach with scope of future expansibility, it will be demonstrated on a much smaller scale, due to a lack of infrastructure and budget.
+Plug and Play modules with fine level of control will be developed only for Lights, Fans and Air Conditioners due to lack of budget and time. Rest of the devices will be controlled in only an On/Off state.</description>
     </item>
     
     <item>
@@ -92,8 +91,7 @@ Sensors are collected in a single unit to form an interconnection among the sens
       <pubDate>Thu, 28 Jun 2018 15:01:21 +0530</pubDate>
       
       <guid>http://swanav.github.io/zeus/docs/references/</guid>
-      <description>Beginner&amp;rsquo;s guide to the esp8266
-Kuch bhi</description>
+      <description>Microcontroller Programming Beginner&#39;s guide to the esp8266 Web Development w3schools.com ReactJs </description>
     </item>
     
   </channel>
