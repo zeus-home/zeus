@@ -1,3 +1,3 @@
 ## Fan
 
-The software module for contrlling a fan.
+The software module for controlling a fan.
