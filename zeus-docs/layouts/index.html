@@ -1,0 +1,60 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+  </div>
+  <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Baseline" height="48" src="{{ "/img/kube/icon-baseline.png" | relURL }}" width="48">
+        </figure>
+        <h3>Artificially Intelligent</h3>
+        <p>Zeus employs deep reinforcement learning models to learn the users behavior and make adjustments accordingly.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Typography" height="48" src="{{ "/img/kube/icon-typo.png" | relURL }}" width="48">
+        </figure>
+        <h3>Energy Efficient</h3>
+        <p>The overall system saves energy by upto 40%. This is enabled by using machine learning techniques.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Minimalism" height="48" src="{{ "/img/kube/icon-minimalism.png" | relURL }}" width="48">
+        </figure>
+        <h3>Works with your existing devices</h3>
+        <p>We provide modules which control your existing devices in a smart way instead of you having to purchase new 'smart' devices.</p>
+      </div>
+    </div>
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Minimalism" height="48" src="{{ "/img/kube/icon-minimalism.png" | relURL }}" width="48">
+        </figure>
+        <h3>Light on pockets</h3>
+        <p>By eliminating the need for purchasing new smart devices, and saving energy, we save you a lot of money.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Minimalism" height="48" src="{{ "/img/kube/icon-minimalism.png" | relURL }}" width="48">
+        </figure>
+        <h3>Centralized Smart Architecture</h3>
+        <p>The home will be centrally connected, this removes hierarchal issues where the devices battle for supremacy.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Minimalism" height="48" src="{{ "/img/kube/icon-minimalism.png" | relURL }}" width="48">
+        </figure>
+        <h3>Voice enabled</h3>
+        <p>Zeus integrates with Google Assistant to enable voice commands. Just pick your phone and say, "Hey, Google!"</p>
+    </div>
+  </div>
+</div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
